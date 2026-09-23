@@ -72,11 +72,11 @@ const MyBookings = () => {
         });
 
         if (verifyRes.data.success) {
-          alert("Payment Successful 🎉");
-          getMyBookings();
-        } else {
-          alert("Payment Failed ❌");
-        }
+  alert("Payment Successful 🎉\nYour ticket has been sent to your email.");
+  getMyBookings();
+} else {
+  alert("Payment Failed ❌");
+}
       },
     };
 
