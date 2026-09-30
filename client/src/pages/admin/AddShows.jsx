@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Loading from "../../components/Loading";
-import Title from "../../components/admin/title";
+import Title from "../../components/admin/Title";
 import { CheckIcon, DeleteIcon, StarIcon } from "lucide-react";
 import KConverter from "../../lib/KConverter";
 import { useAppContext } from "../../context/appContext";
