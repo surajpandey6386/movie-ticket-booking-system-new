@@ -33,9 +33,9 @@ const sendTicketEmail = async ({
     : "N/A";
 
   const mailOptions = {
-    from: `"Quick-Show 🎬" <${process.env.EMAIL_USER}>`,
+    from: `"Cine-Book 🎬" <${process.env.EMAIL_USER}>`,
     to: email,
-    subject: `🎟️ Your Quick-Show Ticket - ${movieTitle}`,
+    subject: `🎟️ Your Cine-Book Ticket - ${movieTitle}`,
 
     html: `
       <div style="
@@ -59,7 +59,7 @@ const sendTicketEmail = async ({
             padding:25px;
             text-align:center;
           ">
-            <h1 style="margin:0;">🎬 QUICK-SHOW</h1>
+            <h1 style="margin:0;">🎬 Cine-Book</h1>
             <p style="margin:8px 0 0;">
               Movie Ticket Confirmation
             </p>
@@ -143,7 +143,7 @@ const sendTicketEmail = async ({
                 font-size:13px;
                 color:#999;
               ">
-                Thank you for booking with Quick-Show 🎬
+                Thank you for booking with Cine-Book 🎬
               </p>
             </div>
 
