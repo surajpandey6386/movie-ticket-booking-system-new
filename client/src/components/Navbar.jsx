@@ -18,7 +18,7 @@ const Navbar = () => {
     justify-between px-6 md:px-16 lg:px-36 py-5"
     >
       <Link to="/" className="max-md:flex-1">
-        <img src={assets.logo} alt="" className="w-36 h-auto" />
+        <img src={assets.logo} alt="" className="w-48 h-auto" />
 
         
       </Link>
